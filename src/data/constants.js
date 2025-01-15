@@ -309,7 +309,7 @@ export const projects = [
     tags: ["Html", "Css", "JS", "JQuery", "Bootstrap",],
     category: "Web Designer",
     github: "https://github.com/hadyronaldo2030/Website-Marketing-masar",
-    webapp: "Website-Marketing-masar",
+    webapp: "https://masr-group.netlify.app/",
   },
   {
     id: 3,
