@@ -43,11 +43,11 @@ export const skills = [
         image:
           "https://icon.icepanel.io/Technology/svg/Redux.svg",
       },
-      {
-        name: "Next Js",
-        image:
-          "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png",
-      },
+      // {
+      //   name: "Next Js",
+      //   image:
+      //     "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png",
+      // },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
