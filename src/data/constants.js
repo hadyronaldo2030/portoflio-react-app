@@ -7,21 +7,23 @@ import mystore from "../images/mystore.png";
 import masar from "../images/masar.png";
 import system from "../images/system ERP.png";
 import monsters from "../images/monsters.png";
+import Multi_tenant from "../images/Multi_tenant.png";
+import Downloader from "../images/Downloader2.png";
 
 export const Bio = {
   name: "Hady Rabie",
   roles: [
+    "Fronend React Developer",
+    "UI/UX Design",
     "Software Engineer",
-    "Fronend Developer",
-    "UI/UX Designer",
     "Programmer",
   ],
   description:
     "Frontend developer provide comprehensive service, can participate in projects involving databases and create user interface web sites.",
   github: "https://github.com/hadyronaldo2030",
   resume:
-    "https://drive.google.com/file/d/121j3rY0X1ZyujCyIlAQwetv7fQv9kYjX/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/hady-rabie-57a461335/",
+    "https://docs.google.com/document/d/1AhYzWt9CYcgndyOsXYFn8kPJA7eolp85/edit",
+  linkedin: "https://www.linkedin.com/in/hady-rabie-51821a393/",
   twitter: "https://x.com/Hady7Ronaldo",
   insta: "https://www.instagram.com/hady_rapia.7/",
   whatsApp: "https://wa.me/+201030804922",
@@ -203,7 +205,33 @@ export const experiences = [
 ];
 
 export const projects = [
-
+{
+    id: 0,
+    title: "Scoop Downloader",
+    date: "Oct 2025",
+    description: "A full-stack web application that allows users to search for videos or paste direct URLs from platforms like YouTube and download them in different formats (MP4 / MP3) with selectable quality, live preview, and real-time download tracking.",
+    image: Downloader,
+    tags: [
+      "Node.JS",
+      "Express.js",
+      "Docker",
+      "React JS",
+      "Axios",
+      "Tailwind",
+      "Css",
+    ],
+    category: "React",
+    github: "#",
+    webapp: "#",
+    member: [
+      {
+        name: "Hady Rabie",
+        img: hady,
+        linkedin: "https://www.linkedin.com/in/hady-rabie-57a461335/",
+        github: "https://github.com/hadyronaldo2030",
+      },
+    ],
+  },
   {
     id: 0,
     title: "My Store (E-Commerce)",
@@ -333,10 +361,29 @@ export const projects = [
     github: "https://github.com/hadyronaldo2030/final-project-covid-19",
     webapp: "https://hadyronaldo2030.github.io/final-project-covid-19",
   },
+  {
+    id: 5,
+    title: "Multi-tenant SaaS",
+    date: "feb 2026",
+    description: "Building an integrated cloud platform based on a Multi-tenant SaaS model. This platform aims to allow shipping company owners to create their own control panels via Sub-domains. The platform enables efficient management of operations, drivers, and shipments. It also features smart integration with a dedicated mobile app for drivers and an automated WhatsApp notification system for the end customer",
+    image: Multi_tenant,
+    tags: ["Adobe XD", "SaaS Platform Design", "Mobile App Design", "Dark Mode"],
+    category: "Ui/Ux",
+    webapp: "نحط راب pdf على درايف",
+  },
 
 ];
 
 export const education = [
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvyfOl34WPVvdmPuvIUGOdtFBjpzJJ-zweIxBCJFvbRoVHmtghLhO38KfVLCF1-HleDA&usqp=CAU",
+    school: "EGI",
+    date: "May 2021",
+    grade: "Excellent grade ",
+    desc: "This certificate is issued by EGI University of Computer Science and Information Systems. It confirms that the student has obtained a Bachelor's degree in Information Systems with an Excellent grade. The certificate highlights exceptional academic performance across all years of study. It opens up pathways to various opportunities in the fields of information technology",
+    degree: "87%",
+  },
   {
     id: 0,
     img: "https://yt3.googleusercontent.com/K8WVrQAQHTTwsHEtisMYcNai7p7XIlyEAdZg86qYw78ye57r5DRemHQ9Te4PcD_v98HB-ZvQjQ=s900-c-k-c0x00ffffff-no-rj",
@@ -373,15 +420,7 @@ export const education = [
     desc: "This certificate is presented by Instant Software Solutions in honor of the student indicating his completion of an intensive six-month training course in the field of Web Developer The certificate reflects his commitment to learning advanced skills and gaining distinctive practical experience in software development It represents a great achievement that enhances his career opportunities in the fields of information technology and programming.",
     degree: "",
   },
-  {
-    id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvyfOl34WPVvdmPuvIUGOdtFBjpzJJ-zweIxBCJFvbRoVHmtghLhO38KfVLCF1-HleDA&usqp=CAU",
-    school: "EGI",
-    date: "May 2021",
-    grade: "Excellent grade",
-    desc: "This certificate is issued by EGI University of Computer Science and Information Systems. It confirms that the student has obtained a Bachelor's degree in Information Systems with an Excellent grade. The certificate highlights exceptional academic performance across all years of study. It opens up pathways to various opportunities in the fields of information technology",
-    degree: "",
-  },
+  
   {
     id: 2,
     img: "https://immrsvstudios.com/wp-content/uploads/2024/09/1024-px-X-1024-px-identity-05-scaled.jpg.webp",

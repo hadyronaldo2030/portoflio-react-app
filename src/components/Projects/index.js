@@ -33,6 +33,12 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="Web Designer" onClick={() => setToggle('Web Designer')}>Web Design</ToggleButton>
           }
           <Divider />
+          {toggle === 'Ui/Ux' ?
+            <ToggleButton active value="Ui/Ux" onClick={() => setToggle('Ui/Ux')}>Ui/Ux</ToggleButton>
+            :
+            <ToggleButton value="Ui/Ux" onClick={() => setToggle('Ui/Ux')}>UI/UX</ToggleButton>
+          }
+          <Divider />
           {toggle === 'Systems' ?
             <ToggleButton active value="Systems" onClick={() => setToggle('Systems')}>Systems</ToggleButton>
             :
