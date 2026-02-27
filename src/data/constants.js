@@ -13,7 +13,7 @@ import Downloader from "../images/Downloader2.png";
 export const Bio = {
   name: "Hady Rabie",
   roles: [
-    "Fronend React Developer",
+    "Fronend React.Js",
     "UI/UX Design",
     "Software Engineer",
     "Programmer",
